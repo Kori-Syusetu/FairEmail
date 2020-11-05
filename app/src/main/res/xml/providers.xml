@@ -119,7 +119,7 @@
     <provider
         name="Yahoo"
         appPassword="true"
-        domain="yahoo\\..*"
+        domain="yahoo\\.(?!co\\.jp)*"
         id="yahoo"
         link="https://github.com/M66B/FairEmail/blob/master/FAQ.md#user-content-faq88">
         <imap
@@ -1004,6 +1004,19 @@
             starttls="false" />
         <smtp
             host="smtp.rambler.ru"
+            port="465"
+            starttls="false" />
+    </provider>
+    <provider
+        name="Yahoo! Japan"
+        domain="yahoo.co.jp"
+        link="https://support.yahoo-net.jp/PccMail/s/article/H000007344">
+        <imap
+            host="imap.mail.yahoo.co.jp"
+            port="993"
+            starttls="false" />
+        <smtp
+            host="smtp.mail.yahoo.co.jp"
             port="465"
             starttls="false" />
     </provider>
