@@ -3358,8 +3358,15 @@ but unfortunately Android themes are fixed, see for example [here](https://stack
 
 ## Support
 
+FairEmail is supported on smartphones, tablets and ChromeOS only.
+
 Only the latest Play store version and latest GitHub release are supported.
+The F-Droid build is supported only if the version number is the same as the version number of the latest GitHub release.
 This also means that downgrading is not supported.
+
+There is no support on things that are not directly related to FairEmail.
+
+There is no support on building and developing things by yourself.
 
 Requested features should:
 
